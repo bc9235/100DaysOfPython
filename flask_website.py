@@ -9,7 +9,7 @@ from flask_bootstrap import Bootstrap
 
 load_dotenv()
 
-# .env variables for sending & receiving emails from contact form
+# .env file variables for sending & receiving emails from contact form
 SENDER_EMAIL = os.environ["SENDER_EMAIL"]
 SENDER_PASS = os.environ["SENDER_PASS"]
 RECEIVE_EMAIL = os.environ["RECEIVE_EMAIL"]
